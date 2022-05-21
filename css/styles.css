@@ -1,4 +1,11 @@
-/*фоновые цвета в секциях плюс переменные*/
+/* сброс */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*фоновые цвета в секциях*/
 .team-masters {
     background-color: #F5F4FA;
 }
@@ -18,11 +25,6 @@
 .footer-portfolio {
     background-color: #2F303A;
 }
-
-:root {
-    --background-color: #F5F4FA;
-}
-
 /*цвета ссылок/кнопок при наведении, при фокусе*/
 .link-studia:hover,
 .link-studia:focus {
@@ -67,16 +69,12 @@
 .modal:hover,
 .modal:focus {
     background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .modal {
     background-color: #F5F4FA;
 }
-
-:root {
-    --color: #2196F3;
-}
-
 .modal-studio {
     background-color: #2196F3;
     color: #FFFFFF;
@@ -84,21 +82,12 @@
 
 /* цвета текстов*/
 .caption {
-    color: #FFFFFF;
+    color: #212121;
 }
 
 .link-adress {
     color: #FFFFFF;
 }
-
-.footer-link-mail {
-    color: #757575;
-}
-
-.footer-link-tel {
-    color: #757575;
-}
-
 .link-studia {
     color: #212121;
 }
@@ -121,4 +110,106 @@
 
 p {
     color: #757575;
+}
+/* стилизация шрифтов  студии + общих с портфолио*/
+.site-nav {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.header-contact {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.main-text {
+    font-family: 'Roboto';
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.caption-studia {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.caption {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.subject {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+.desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+.link-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+.footer-link-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* стилизация шрифтов портфолио*/
+.modal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.caption-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.features {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вэб-студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
 <body>
     <!--Шапка сайта-->
+    <p class="test">Главная</p>
     <header class="page-header">
         <nav>
             <a href="" class="logo">
@@ -22,15 +25,15 @@
                 <li><a href="" class="link-contact">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="header-contact">
             <li><a href="mailto" class="mail">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="link-header-tel">+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <main>
+    <main class="main-text">
         <section class="hero">
             <!--главный заголовок + кнопка-->
-            <h1 class="caption">Эффективные решения вашего бизнеса</h1>
+            <h1 class="main-title">Эффективные решения вашего бизнеса</h1>
             <button type="button" class="modal-studio">заказать услугу</button>
         </section>
         <section>
@@ -54,7 +57,7 @@
             </ul>
         </section>
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="caption-studia">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./images/section/img_1.jpg" alt="печатает на клавиатуре" width="370" height="294" />
@@ -69,27 +72,27 @@
         </section>
         <section class="team-masters">
             <!--Masters-->
-            <h2>Наша команда</h2>
+            <h2 class="caption">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/masters/igor.jpg" alt="Игорь" width="270" height="260" />
-                    <h3>Игорь Демьяненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <h3 class="subject">Игорь Демьяненко</h3>
+                    <p lang="en" class="desc">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/masters/olga.jpg" alt="Ольга" width="270" height="260" />
-                    <h3>Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="subject">Ольга Репина</h3>
+                    <p lang="en" class="desc">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/masters/nikolai.jpg" alt="Николай" width="270" height="260" />
-                    <h3>Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <h3 class="subject">Николай Тарасов</h3>
+                    <p lang="en" class="desc">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/masters/mikhail.jpg" alt="Михаил" width="270" height="260" />
-                    <h3>Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="subject">Михаил Ермаков</h3>
+                    <p lang="en" class="desc">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -111,6 +114,5 @@
             </li>
         </ul>
     </footer>
-</body>
-
+ </body>
 </html>
