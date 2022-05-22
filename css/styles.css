@@ -4,26 +4,31 @@ ul {
 }
 a {
     text-decoration: none;
-}
-/*фоновые цвета в секциях*/
-.team-masters {
-    background-color: #F5F4FA;
-}
-
+}/*фоновые цвета в секциях*/
 .hero {
     background-color: #2F303A;
 }
-
+.team-masters {
+    background-color: #F5F4FA;
+}
 .modal {
     background-color: #2196F3;
 }
-
 .footer-studio {
     background-color: #2F303A;
 }
 
 .footer-portfolio {
     background-color: #2F303A;
+}
+.modal {
+    background-color: #F5F4FA;
+}
+.modal-studio {
+    background-color: #F5F4FA;
+}
+.list-masters {
+    background-color: #FFFFFF;
 }
 /*цвета ссылок/кнопок при наведении, при фокусе*/
 .link-studia:hover,
@@ -66,20 +71,16 @@ a {
     color: #2196F3;
 }
 
-.modal:hover,
-.modal:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-
-.modal {
-    background-color: #F5F4FA;
-}
-.modal-studio {
+.modal-studio:hover,
+.modal-studio:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-
 /* цвета текстов*/
 .caption {
     color: #212121;
@@ -130,17 +131,13 @@ p {
     font-family: 'Roboto';
 }
 .main-title {
-font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    /* or 136% */
-
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 h3 {
@@ -160,12 +157,11 @@ h3 {
 }
 .caption {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.6;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .subject {
     font-weight: 500;
@@ -217,4 +213,28 @@ h3 {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+}
+.accent {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
