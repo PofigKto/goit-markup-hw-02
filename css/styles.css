@@ -4,14 +4,20 @@ ul {
 }
 a {
     text-decoration: none;
-}/*фоновые цвета в секциях*/
+}
+:root {
+--main-background-button-color: #2196F3;
+--main-p-text-color: #757575;
+--main-text-color: #212121;
+}
+/*фоновые цвета в секциях*/
 .hero {
     background-color: #2F303A;
 }
 .team-masters {
     background-color: #F5F4FA;
 }
-.modal {
+.button-studio{
     background-color: #2196F3;
 }
 .footer-studio {
@@ -21,10 +27,10 @@ a {
 .footer-portfolio {
     background-color: #2F303A;
 }
-.modal {
+.button-portfolio {
     background-color: #F5F4FA;
 }
-.modal-studio {
+.button-studio {
     background-color: #F5F4FA;
 }
 .list-masters {
@@ -76,8 +82,8 @@ a {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-.modal-studio:hover,
-.modal-studio:focus {
+.button-studio:hover,
+.button-studio:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
