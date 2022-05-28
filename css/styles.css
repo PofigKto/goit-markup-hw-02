@@ -1,143 +1,61 @@
-/* сброс */
-ul {
+:root {
+--primary-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+--primary-section-color-theme-light: #FFFFFF;
+--secondary-section-color-theme-light: #F5F4FA;
+--primary-section-color-theme-dark: #2F303A;
+--primary-text-color-theme-dark: #212121;
+--primary-text-color-theme-light: #757575;
+--accent-color: #2196F3;
+}
+.list {
     list-style: none;
 }
-a {
+.link {
     text-decoration: none;
 }
-:root {
---main-background-button-color: #2196F3;
---main-p-text-color: #757575;
---main-text-color: #212121;
+body {
+    font-family: var(--primary-font-family);
 }
-/*фоновые цвета в секциях*/
+/*==================section background colors================*/
 .hero {
-    background-color: #2F303A;
+    background-color: var(--primary-section-color-theme-dark);
+}
+.preview {
+    background-color: var(--primary-section-color-theme-light);
 }
 .team-masters {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-section-color-theme-light);
 }
-.button-studio{
-    background-color: #2196F3;
+.masters {
+    background-color: var(--primary-section-color-theme-light);
 }
-.footer-studio {
-    background-color: #2F303A;
+.footer {
+    background-color: var(--primary-section-color-theme-dark);
 }
-
-.footer-portfolio {
-    background-color: #2F303A;
+/*====================text styling studio===================*/
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-dark);
 }
-.button-portfolio {
-    background-color: #F5F4FA;
+.mail-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-light);
 }
-.button-studio {
-    background-color: #F5F4FA;
-}
-.list-masters {
-    background-color: #FFFFFF;
-}
-/*цвета ссылок/кнопок при наведении, при фокусе*/
-.link-studia:hover,
-.link-studia:focus {
-    color: #2196F3;
-}
-
-.link-portfolio:hover,
-.link-portfolio:focus {
-    color: #2196F3;
-}
-
-.link-contact:hover,
-.link-contact:focus {
-    color: #2196F3;
-}
-
-.mail:hover,
-.mail:focus {
-    color: #2196F3;
-}
-
-.link-header-tel:hover,
-.link-header-tel:focus {
-    color: #2196F3;
-}
-
-.footer-link-mail:hover,
-.footer-link-mail:focus {
-    color: #2196F3;
-}
-
-.footer-link-tel:hover,
-.footer-link-tel:focus {
-    color: #2196F3;
-}
-
-.link-adress:hover,
-.link-adress:focus {
-    color: #2196F3;
-}
-
-.button-portfolio:hover,
-.button-portfolio:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-.button-studio:hover,
-.button-studio:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-/* цвета текстов*/
-.caption {
-    color: #212121;
-}
-
-.link-adress {
-    color: #FFFFFF;
-}
-.link-studia {
-    color: #212121;
-}
-
-.link-portfolio {
-    color: #212121;
-}
-
-.link-contact {
-    color: #212121;
-}
-
-.mail {
-    color: #757575;
-}
-
-.link-header-tel {
-    color: #757575;
-}
-
-p {
-    color: #757575;
-}
-/* стилизация шрифтов  студии + общих с портфолио*/
-.site-nav {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.header-contact {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.main-text {
-    font-family: 'Roboto';
+.phone-number-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-light)
 }
 .main-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -146,101 +64,111 @@ p {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-h3 {
+.preview-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--primary-text-color-theme-dark);
 }
-.caption-studia {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.preview-text {
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color-theme-light);
 }
+.caption-studia,
 .caption {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color-theme-dark);
 }
 .subject {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
 }
 .desc {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
 }
-.link-adress {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
-}
-.footer-link-mail {
+.adress-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-text-color-theme-light);
 }
-.footer-link-tel {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-/* стилизация шрифтов портфолио*/
-.modal {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-}
-.caption-portfolio {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;
-}
-.features {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-}
-.accent {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
 }
 .logo {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color-theme-dark);
+}
+.accent {
+    color: var(--accent-color);
 }
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+/*==================text styling portfolio=============*/
+.caption-portfolio {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color-theme-dark);
+}
+.text-portfolio {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+/*====================Components====================*/
+.modal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-dark);
+}
+.modal:hover,
+.modal:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.phone-number-link:hover,
+.phone-number-link:focus {
+    color: var(--accent-color);
+}
+.modal {
+    cursor: pointer;
 }

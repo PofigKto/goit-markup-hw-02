@@ -12,97 +12,96 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
 <body>
     <header>
         <!--шапка сайта-->
-        <p class="test">Портфолио</p>
-        <nav>
+        <nav class="navigation">
             <p class="logo">
                 <span class="accent" lang="en">Web</span>Studio
             </p>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="link-studia">Студия</a></li>
-                <li><a href="./portfolio.html" class="link-portfolio">Портфолио</a></li>
-                <li><a href="" class="link-contact">Контакты</a></li>
+            <ul class="menu-list list">
+                <li class="menu-item"><a href="./index.html" class="menu-link link">Студия</a></li>
+                <li class="menu-item"><a href="./portfolio.html" class="menu-link link">Портфолио</a></li>
+                <li class="menu-item"><a href="" class="menu-link link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="header-contact">
-            <li><a href="mailto" class="mail">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link-header-tel">+38 096 111 11 11</a></li>
+        <ul class="contacts-list list">
+            <li><a href="mailto" class="mail-link link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="phone-number-link link">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main class="main-text">
-        <section>
-            <ul>
-                <li><button type="button" class="button-portfolio">Все</button></li>
-                <li><button type="button" class="button-portfolio">Веб-сайты</button></li>
-                <li><button type="button" class="button-portfolio">Приложения</button></li>
-                <li><button type="button" class="button-portfolio">Дизайн</button></li>
-                <li><button type="button" class="button-portfolio">Маркетинг</button></li>
+        <section class="benefits">
+            <h1 hidden>Портфолио</h1>
+            <ul class="modal-list list">
+                <li><button type="button" class="modal">Все</button></li>
+                <li><button type="button" class="modal">Веб-сайты</button></li>
+                <li><button type="button" class="modal">Приложения</button></li>
+                <li><button type="button" class="modal">Дизайн</button></li>
+                <li><button type="button" class="modal">Маркетинг</button></li>
             </ul>
-            <ul>
+            <ul class="main-portfolio-list list">
                 <li>
                     <img src="./images/portfolio/img_1.jpg" alt="ноутбук" width="370" height="294" />
                     <h2 class="caption-portfolio">Технокряк</h2>
-                    <p class="features">Веб-сайт</p>
+                    <p class="text-portfolio">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_2.jpg" alt="баскетбол" width="370" height="294" />
                     <h2 class="caption-portfolio">Постер New Orlean vs Golden Star</h2>
-                    <p class="features">Дизайн</p>
+                    <p class="text-portfolio">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_3.jpg" alt="логотип с рыбой" width="370" height="294" />
                     <h2 class="caption-portfolio">Ресторан Seafood</h2>
-                    <p class="features">Приложение</p>
+                    <p class="text-portfolio">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_4.jpg" alt="нашники" width="370" height="294" />
                     <h2 class="caption-portfolio">Проект Prime</h2>
-                    <p class="features">Маркетинг</p>
+                    <p class="text-portfolio">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_5.jpg" alt="две картонные коробки" width="370" height="294" />
                     <h2 class="caption-portfolio">Проект Boxes</h2>
-                    <p class="features">Приложение</p>
+                    <p class="text-portfolio">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_6.jpg" alt="монитор" width="370" height="294" />
                     <h2 lang="en" class="caption-portfolio">Inspiration has no Borders</h2>
-                    <p class="features">Веб-сайт</p>
+                    <p class="text-portfolio">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_7.jpg" alt="открытая книга" width="370" height="294" />
                     <h2 class="caption-portfolio">Издание Limited Edition</h2>
-                    <p class="features">Дизайн</p>
+                    <p class="text-portfolio">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_8.jpg" alt="табличка с буквами" width="370" height="294" />
                     <h2 class="caption-portfolio">Проект LAB</h2>
-                    <p class="features">Маркетинг</p>
+                    <p class="text-portfolio">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio/img_9.jpg" alt="печатает на ноутбуке" width="370" height="294" />
                     <h2 lang="en" class="caption-portfolio">Growing Business</h2>
-                    <p class="features">Приложение</p>
+                    <p class="text-portfolio">Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer class="footer-portfolio">
+    <footer class="footer">
         <p class="logo-footer">
             <span class="accent" lang="en">Web</span>Studio
         </p>
-        <ul>
-            <li>
-                <a href="https://goo.gl/maps/bgJPSbdSrHESArMN8" class="link-adress">г. Киев, пр-т Леси Украинки, 26</a>
+        <ul class="footer-contactas-list list">
+            <li class="footer-item">
+                <a href="https://goo.gl/maps/bgJPSbdSrHESArMN8" class="adress-link link">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
-                <a href="mailto:" class="footer-link-mail">info@example.com</a>
+            <li class="footer-item">
+                <a href="mailto:" class="mail-link link">info@example.com</a>
             </li>
-            <li>
-                <a href="tel:+380991111111" class="footer-link-tel">+38 099 111 11 11</a>
+            <li class="footer-item">
+                <a href="tel:+380991111111" class="phone-number-link link">+38 099 111 11 11</a>
             </li>
         </ul>
     </footer>
